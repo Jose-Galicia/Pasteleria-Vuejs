@@ -1,6 +1,6 @@
 <template>
-    <div class="about">
-         <Pedidos/>
+    <div class="Pedido">
+         <Pedido/>
     </div>   
 </template>
 
@@ -15,7 +15,6 @@ import Adornos from "../components/Adornos.vue"
 import Contenedores from "../components/Contenedores.vue"
 import Pedido from "../components/Pedido.vue"
 import Pedidos from "../components/Pedidos.vue"
-import Datos from "../store/index.js"           //Prueba
 
 export default {
   name: 'HomeView',
@@ -28,9 +27,6 @@ export default {
     Contenedores,
     Pedido,
     Pedidos,
-  },
-  store:{           //Prueba
-    Datos
   }
   /*data(){
     return {counter:0 //Va con dos puntos porque lo que regresa es ub objeto
