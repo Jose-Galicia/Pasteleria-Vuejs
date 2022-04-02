@@ -19,3 +19,4 @@ npm run build
 See [Configuration Reference](https://cli.vuejs.org/config/).
 "# Pasteleria-Vuejs" 
 "# Jose-Galicia-Pasteleria-Vuejs" 
+"# Jose-Galicia-Pasteleria-Vuejs" 
