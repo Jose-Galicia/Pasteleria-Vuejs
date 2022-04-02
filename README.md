@@ -24,3 +24,4 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 "# Jose-Galicia-Pasteleria-Vuejs" 
 "# Jose-Galicia-Pasteleria-Vuejs" 
 "# Jose-Galicia-Pasteleria-Vuejs" 
+"# Pasteleria-Vuejs" 
