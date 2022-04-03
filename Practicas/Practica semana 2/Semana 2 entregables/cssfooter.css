@@ -1,0 +1,265 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: white;
+    font-family: 'calibri';
+}
+
+img{
+    width: 120px;
+}
+
+.menu{
+    width: 900px;           /*Ancho*/
+    margin: 0 auto;
+}
+
+header{
+    background: #092327;
+    width: 100%;
+    clear: both; /*No tener elementos ni a izquierdo ni derecha*/
+    content: '';
+    display: table; /*Para que los elementos hijos se muestren*/
+}
+
+img{
+    width: 100px;
+    height: 80px;
+    float: left;
+    padding: 8px;
+}
+
+nav{
+    float: right;
+}
+
+nav ul li{
+    list-style: none;       /*Borra los puntos de la lista*/
+    margin-left: 35px;
+    padding: 10px 0;
+    float: left;
+    position: relative;
+}
+
+nav ul li a{                /*Texto*/
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-size: 22px;
+}
+
+nav ul li a ::before{
+    display: block;
+    content: '';
+    width: 0%;
+    background: #444;
+    height: 5px;
+    top: 0;
+    position: absolute;
+    transition: width 1s;
+}
+
+.menu li a:hover{
+    background: #ef354e;
+}
+
+.center{
+    text-align: center;
+}
+
+.tM{
+    font-size: 50px;
+}
+
+.fondoImagen{
+    background-image: url(https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F21%2F2017%2F02%2F24%2F3a23ae4b-48b7-44eb-96a7-0e8e755683b6-2000.jpg&q=60);
+    height: 500px;
+    background-position: top;
+    position: relative;
+
+    font-family: cursive;
+    font-size: 80px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.imagen1{
+    background-image: url(https://img1.freepng.es/20180319/owq/kisspng-computer-icons-user-profile-clip-art-icon-profile-size-5ab030157502a2.7195773715214960854793.jpg);
+    height: 260px;
+    width: 260px;
+    position: relative;
+    list-style: none;
+    top: 20px;
+    left: 100px;
+}
+
+.titulos {
+    font-size: 60px;
+    font-family: 'Pacifico', cursive;
+    text-transform: capitalize;
+    text-align: center;
+    color: var(--primario);
+}
+
+.info{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.info2{
+    text-align: left;
+    color: white;
+}
+
+.contenedor {
+    display: block;
+    max-width: 1260px;
+    margin: auto;
+}
+
+.precio {
+    color: var(--precio);
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 25px 25px 0;
+    padding: 25px 25px 0;
+}
+
+.productos li {
+    list-style: none;
+    text-transform: capitalize;
+}
+
+.separador {
+    padding-top: 50px;
+}
+
+.pastel-adornos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 10px;
+    width: 300px;
+    height: 250px;
+    background-color: white;
+    box-shadow: inset 0 0 20px 0 pink;
+    border-radius: 50px;
+    transition: transfom .1s;
+}
+
+.fondoGradiente{
+    background: linear-gradient(rgb(148, 105, 105), rgb(73, 73, 78));
+    height: 10px;
+}
+
+.textcontact{
+    text-align: left;
+    color: white;
+}
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.footer{
+    padding: 40px 0;
+    background-color: white;
+}
+
+.footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: #4b4c4b;
+}
+
+.footer .social a{
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75; 
+}
+
+.footer .social a:hover{
+    opacity: 0.9;
+
+}
+
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.footer ul a{
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.footer ul li a:hover{
+    opacity: 1;
+}
+
+.footer .copyright{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+}
+
+.titulos2{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    text-align: left;
+    color: var(--primario);
+}
+
+.titulos3{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    text-align: left;
+    color: var(--primario);
+}
+
+.tabla1{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 200px;
+    left: 850px;
+}
+
+.box{
+    width: 260px;
+    height: 260px;
+    border: 2px solid black;
+    background-color: #667766; 
+    text-align: center;
+ }

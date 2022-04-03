@@ -1,0 +1,145 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: #e7a5a5;
+}
+
+.menu{
+    list-style: none;
+    padding: 0;
+    background-color: #092327;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background: #ef354e;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+.fondoImagen{
+    background-image: url(https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F21%2F2017%2F02%2F24%2F3a23ae4b-48b7-44eb-96a7-0e8e755683b6-2000.jpg&q=60);
+    height: 500px;
+    background-position: top;
+    position: relative;
+    
+    font-size: 80px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.centrar{
+    text-align: center;
+    color: rgb(14, 133, 4);
+}
+
+.centrar1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+}
+
+.imagen1{
+    background-image: url(https://file.adomicil.io/esperanza.tr3sco.net/_files/images/product/thumb3-0503600571539067.jpg);
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 800px;
+    left: 500px;
+}
+
+.imagen2{
+    background-image: url(https://file.adomicil.io/esperanza.tr3sco.net/_files/images/product/thumbmaltchocolate-0755462160220119.png);
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 800px;
+    left: 900px;
+}
+
+.imagen3{
+    background-image: url(https://i0.wp.com/thesweetmolcajete.com/wp-content/uploads/2020/06/WPRM-Receta-de-Pastel-de-Tres-Leches.jpg?fit=200%2C200&ssl=1);
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 800px;
+    left: 1300px;
+}
+
+.imagen4{
+    background-image: url(https://i.pinimg.com/474x/42/70/da/4270dad95aedf4c516ef76bbc96ab119.jpg);
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 1100px;
+    left: 500px;
+}
+
+.imagen5{
+    background-image: url(https://file.adomicil.io/esperanza.tr3sco.net/_files/images/product/thumbminibaileys-0678927653785296.png);
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 1100px;
+    left: 900px;
+}
+
+.imagen6{
+    background-image: url(https://liznaturalbakery.com/wp-content/uploads/2020/05/cake-cuatro-leches-mexicano-2-200x200.jpg);
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 1100px;
+    left: 1300px;
+}
+
+.img{
+    height: auto;
+    width: auto;
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.box{
+   width: 200px;
+   height: 200px;
+   border: 2px solid black;
+   background-color: #667766; 
+}
+
+.fondoGradiente{
+    background: linear-gradient(rgba(2,0,36,1), rgba(9,9,121,1));
+    background-position: center;
+    background-size: cover; 
+}
+
+
+
+
+
+
+
+
+
+/*.barrasu{
+    background-color: burlywood;
+    height: 80px;
+    width: 800px;
+    position: absolute;
+    top: 0px;
+    left: 540px;
+}*/
